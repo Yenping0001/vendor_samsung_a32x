@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mnl_config version="20011001.6.0S.99" type="gps">
+
+    <feature>GLP
+        <version>2.0</version>
+        <config>1</config>
+        <format>Enable</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>CAIC
+        <version>1.0</version>
+        <config>1</config>
+        <format>L1 CAIC FrequencyHz</format>
+        <setting>1572680000,1572740000,1572770000,1572860000,1572890000,1577110000,1577140000,1577170000,1577230000,1577290000</setting>
+        <format>L5 CAIC FrequencyHz</format>
+        <setting>1170000000</setting>
+        <format>L1 FilterBW</format>
+        <setting>4</setting>
+        <format>L5 FilterBW</format>
+        <setting>6</setting>
+    </feature>
+
+    <feature>DCB
+        <version>1.0</version>
+        <config>0</config>
+        <format>L5_DCB_GPS,L5_DCB_QZSS,L5_DCB_CNSS,L5_DCB_GALILEO</format>
+        <setting>-5.15,-5.16,-5.83,-5.22</setting>
+    </feature>
+
+    <feature>L1Only
+        <version>1.0</version>
+        <config>0</config>
+        <format>L1 only: 1</format>
+        <setting>0</setting>
+    </feature>
+
+    <feature>L5Test
+        <version>1.0</version>
+        <config>0</config>
+        <format>Search and used GPS L5 satellites according to the healthy status: 0, Search and used GPS L5 satellites regardless of its healthy status: 1</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>MDTime
+        <version>1.0</version>
+        <config>1</config>
+        <format>featureOption,requestInterval,sizeOfWindow,syncBackNum(optional)</format>
+        <setting>1,5000,1500,0</setting>
+    </feature>
+
+    <feature>CoTMS
+        <version>2.5</version>
+        <config>1</config>
+        <format>RTS,TEP</format>
+        <setting>0,2</setting>
+    </feature>
+
+    <feature>Bluesky
+        <version>1.0</version>
+        <config>1</config>
+        <format>enable:0,disable:1</format>
+        <setting>1</setting>
+    </feature>
+</mnl_config>
